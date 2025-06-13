@@ -1,0 +1,28 @@
+* {
+	font-family: "Roboto", sans-serif;
+}
+:root {
+	--profile-picture-size: 270px;
+	--profile-picture-mobile-size: 160px;
+	--primary-color: #143572;
+	--secondary-color: #53b4e3;
+}
+body,
+#app,
+html {
+	background-color: rgb(234, 236, 236);
+	margin: 0;
+	height: 100dvh;
+	min-width: 100dvw;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
